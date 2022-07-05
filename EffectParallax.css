@@ -1,0 +1,15 @@
+
+			
+    	.parallax {
+		    
+		    background-image: url("https://www.boqnews.com/wp-content/uploads/2020/11/tudo-que-voce-precisa-saber-sobre-alongamento-de-unhas-11.jpg");
+
+		    /* define uma altura para a visão que o usuário terá da imagem */
+		    min-height: 500px; 
+
+		    /* define o background como fixo e posicione a imagem */
+		    background-attachment: fixed;
+		    background-position: center;
+		    background-repeat: no-repeat;
+		    background-size: cover;
+		}

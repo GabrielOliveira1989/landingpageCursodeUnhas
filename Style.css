@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+/* O * serve para "resetar" o CSS*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(50deg, rgba(255, 255, 255, 1) 0%, rgba(245, 231, 251, 1) 31%, rgba(230, 67, 117, 1) 100%);
+}
+
+.mainheader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 0px;
+    position: sticky;
+    top: 0px;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20200923/pngtree-rainbow-color-horizontal-stripe-background-image_398870.jpg");
+    border: white solid 1px;
+    
+}
+
+.mainheader-image {
+    border-radius: 50%;
+    border-color: blueviolet;
+    border: 1px solid rebeccapurple;
+
+
+}
+
+.mainheader-menu {
+    display: flex;
+    gap: 40px;
+    
+}
+
+.mainheader-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #000000;
+    font-weight: 600;
+    font-size: 25px;
+    }
+
+.mainheader-menu-item:hover {
+    color: azure;
+    background-color: rgb(255, 187, 199);
+    box-shadow: 4px 4px 4px #000000;
+    border-radius: 10%;
+}
+
+.contents {
+    border-top: 1px solid whitesmoke;
+    margin-bottom: 48px;
+}
+
+.maincontents {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+
+
+}
+
+.maincontentwritten {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.maincontentwritten-title {
+    font-family: 'Righteous', cursive;
+    font-weight: 500;
+    font-size: 50px;
+    color: #000000;
+    
+}
+
+
+.maincontentwritten-subtitle {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(0, 0, 0, 0.6);
+}
+
+.maincontentbutton {
+    background-color: rgb(255, 214, 221);
+    width: 180px;
+    height: 70px;
+    border: none;
+    border-radius: 20%;
+    box-shadow: 4px 4px 4px #000000;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    transition: width 2s, height 4s;
+    animation: button 1s infinite;
+
+}
+
+@keyframes button {
+    from {color: #000000;}
+    to {color: rgb(248, 7, 7);}
+}
+
+.maincontentbutton:hover {
+    background-color: rgb(255, 157, 173);
+    width: 216px;
+    height: 84px;
+
+}
+
+#maincontentimage {
+   
+
+}
+
+.secundarycontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.secundarycontent-title {
+    border-top: 2px solid black;
+    padding-top: 40px;
+    font-family: 'Righteous', cursive;
+    font-weight: 500;
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 40px;
+    text-decoration:line-through
+}
+
+.secundarycontent-paragraph {
+    font-family: 'Righteous', cursive;
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+
+}
+
+.baseboard {
+    padding: 32px;
+    border-top: 2px solid black;
+}
+
+.baseboard-image {
+    height: 200px;
+    display: block;
+    margin: 0% auto;
+}
